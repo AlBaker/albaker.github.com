@@ -4,18 +4,19 @@ permalink: /:categories/:year/:month/:day/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
+markdown: redcarpet
 
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : Al Baker Blog
+title : Linked Java
 tagline: Examining Semantic Web systems with Java, Groovy, and Clojure
 author :
   name : Al Baker
-  email : blah@email.test
+ # email : blah@email.test
   github : AlBaker
   twitter : AlBaker_Dev
-  feedburner : feedname
+#  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
