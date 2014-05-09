@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Linked Java
+tagline: Evaluating Data Integration techniques
 ---
 {% include JB/setup %}
 
-Migration from [old blog](http://linkedjava.blogspot.com/).
+Linked Java is a blog on various subjects of interest, centered around exploiting data using different languages, frameworks, and techniques.  The [old blog](http://linkedjava.blogspot.com/) is still accessible for posts earlier than 2014.  Select posts, such as the tutorials will migrate here.
 
 
 ## Posts
