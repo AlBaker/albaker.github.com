@@ -1,43 +1,31 @@
-New blog..
+# Blog
+
+This repo contains the source, including code, for the blog at [albaker.github.io](http://albaker.github.io).
+
+This was built using Jekyll-Bootstrap version 0.3.0.
+
+# Jekyll-Bootstrap Resources
 
 
-# Jekyll-Bootstrap
+* For all usage and documentation please see: <http://jekyllbootstrap.com>
 
-The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
+* **Jekyll-Bootstrap Documentation Website.**  The documentation website at <http://jekyllbootstrap.com> is maintained at https://github.com/plusjade/jekyllbootstrap.com
 
-## Usage
+* Once you generate the repo, you'll want to change _config.yml with "markdown: redcarpet"
 
-For all usage and documentation please see: <http://jekyllbootstrap.com>
+* Theme is <http://themes.jekyllbootstrap.com/preview/tom/>
 
-## Version
+* To remove the RSS stuff, remove the path info from config.yml and edit _includes/themes/tom/default.html
 
-0.3.0 - stable and versioned using [semantic versioning](http://semver.org/).
+* How to reference a gist within a Jekyll page: <https://gist.github.com/benbalter/5555251>
 
-**NOTE:** 0.3.0 introduces a new theme which is not backwards compatible in the sense it won't _look_ like the old version.
-However, the actual API has not changed at all.
-You might want to run 0.3.0 in a branch to make sure you are ok with the theme design changes.
-
-## Contributing
-
-
-To contribute to the framework please make sure to checkout your branch based on `jb-development`!!
-This is very important as it allows me to accept your pull request without having to publish a public version release.
-
-Small, atomic Features, bugs, etc.
-Use the `jb-development` branch but note it will likely change fast as pull requests are accepted.
-Please rebase as often as possible when working.
-Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work.
-
-For Big Features or major API extensions/edits:
-This is the one case where I'll accept pull-requests based off the master branch.
-This allows you to work in isolation but it means I'll have to manually merge your work into the next public release.
-Translation : it might take a bit longer so please be patient! (but sincerely thank you).
-
-**Jekyll-Bootstrap Documentation Website.**
-
-The documentation website at <http://jekyllbootstrap.com> is maintained at https://github.com/plusjade/jekyllbootstrap.com
+* Jekyll introduction: <http://jekyllbootstrap.com/lessons/jekyll-introduction.html>
 
 
 ## License
 
-[MIT](http://opensource.org/licenses/MIT)
+jekyllbootstrap is licensed under the [MIT](http://opensource.org/licenses/MIT)
+
+Blog content under _posts is Copyright 2014 Al Baker and licensed under [Creative Commons CC BY 3.0 US](https://creativecommons.org/licenses/by/3.0/us/).
+
+Code found under the code folder is Copyright 2014 Al Baker and licensed under [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0) unless otherwise noted in the individual folders or files.
