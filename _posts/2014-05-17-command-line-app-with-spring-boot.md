@@ -2,7 +2,7 @@
 layout: post
 title: "Command Line App with Spring Boot"
 description: "Convenience packaging with Spring Boot"
-category: spring
+category: [spring]
 tags: [spring]
 ---
 {% include JB/setup %}
