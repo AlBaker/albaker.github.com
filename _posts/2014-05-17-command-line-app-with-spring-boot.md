@@ -13,4 +13,7 @@ Whether you use the Spring framework, or even Spring Boot or not, the Spring Boo
 
 Here's all you need.  Your main class doesn't have to do anything special, you package a jar with the application plugin as normal, and that's that.
 
-{% gist 918a244704940f5b1b9f build.gradle %}
+{% gist 918a244704940f5b1b9f %}
+
+Enjoy!
+
