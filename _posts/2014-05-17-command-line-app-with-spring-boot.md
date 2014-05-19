@@ -16,54 +16,5 @@ Here's all you need.  Your main class doesn't have to do anything special, you p
 {% gist AlBaker/918a244704940f5b1b9f %}
 
 
-```
-buildscript {
-  repositories {
-    maven { url "http://repo.spring.io/libs-snapshot" }
-    mavenLocal()
-  }
-  dependencies {
-  classpath("org.springframework.boot:spring-boot-gradle-plugin:1.0.2.RELEASE")
-  }
-}
-
-apply plugin: 'groovy'
-apply plugin: 'eclipse'
-apply plugin: 'application'
-apply plugin: 'spring-boot'
-
-
-// ETL or Client
-mainClassName = "your.mainClass"
-
-
-repositories {
-  mavenLocal()
-  mavenCentral()
-  maven { url "http://repo.spring.io/snapshot" }
-  maven { url "http://repo.spring.io/milestone" }
-}
-
-dependencies {
-
-  // your dependencies
-  compile("org.springframework.boot:spring-boot-starter")
-  testCompile("org.springframework.boot:spring-boot-starter-test")
-}
-
-jar {
-  manifest {
-    attributes 'Implementation-Title': 'your-title',
-    'Implementation-Version': version,
-    'Built-By': System.getProperty('user.name'),
-    'Built-Date': new Date(),
-    'Built-JDK': System.getProperty('java.version'),
-    'Main-Class': mainClassName
-  }
-}
-
-```
-
-
 Enjoy!
 
