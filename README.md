@@ -17,7 +17,12 @@ This was built using Jekyll-Bootstrap version 0.3.0.
 
 * To remove the RSS stuff, remove the path info from config.yml and edit _includes/themes/tom/default.html
 
-* How to reference a gist within a Jekyll page: <https://gist.github.com/benbalter/5555251>
+* How to reference a gist within a Jekyll page: <https://gist.github.com/benbalter/5555251>.  It is best to use:
+
+```
+{% gist AlBaker/918a244704940f5b1b9f %}
+```
+
 
 * Jekyll introduction: <http://jekyllbootstrap.com/lessons/jekyll-introduction.html>
 
